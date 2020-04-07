@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSV to QTI Converter</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto|Source+Code+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/monokai.min.css">
+    <link rel="stylesheet" href="static/style.css">
+  </head>
+
+  <body>
+
+    <div id="header">
+      <h1 id="title">CSV to QTI Converter</h1>
+    </div>
+    <div id="container">
+      <section id="content">
+        <h2>Description</h2>
+        <p>Take a CSV file exported from Excel and convert to QTI format.</p>
+        <hr>
+        <h2>Input CSV File</h2>
+        <input type="file" id="files" name="files[]" multiple />
+        <hr />
+        <h2>FileInfo</h2>
+        <div id="file-info"></div>
+        <hr />
+        <h2>CSV Content</h2>
+        <textarea id="result" style="height: 250px;"></textarea>
+		<form onsubmit="download(this['name'].value)">
+		  <input type="text" name="name" value="New Quiz">
+		  <input type="submit" value="Convert to QTI">
+		</form>
+      </section>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA=" crossorigin="anonymous"></script>
+    <script src="static/jquery-csv/src/jquery.csv.js"></script>
+    <script src="static/helpers.js"></script>
+	<script src="static/converter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+    <script>
+		
+	  var csv_data = null;
+	
+      // enable syntax highlighting
+      hljs.initHighlightingOnLoad();
+
+      $(document).ready(function() {
+        if(isFileAPIAvailable()) {
+          $('#files').bind('change', handleDialog);
+        }
+      });
+
+      function handleDialog(event) {
+        var files = event.target.files;
+        var file = files[0];
+
+        var fileInfo = `
+          <span style="font-weight:bold;">${escape(file.name)}</span><br>
+          - FileType: ${file.type || 'n/a'}<br>
+          - FileSize: ${file.size} bytes<br>
+          - LastModified: ${file.lastModifiedDate ? file.lastModifiedDate.toLocaleDateString() : 'n/a'}
+        `;
+        $('#file-info').append(fileInfo);
+
+        var reader = new FileReader();
+        reader.readAsText(file);
+        reader.onload = function(event){
+          var csv = event.target.result;
+          var data = $.csv.toObjects(csv);
+		  csv_data = data;
+          $('#result').empty();
+          $('#result').html(JSON.stringify(data, null, 2));
+
+        }
+		
+      }
+	  
+		function download(filename) {	
+			var qtiStr = '<\?xml version="1.0" encoding="UTF-8"\?>';
+		
+			var qti = parseQTITest(csv_data,filename);
+			var s = new XMLSerializer();
+			qtiStr += s.serializeToString(qti);
+
+			console.log("Finished converting");
+ 
+			var element = document.createElement('a');
+			element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(qtiStr));
+			element.setAttribute('download', filename+'.xml');
+
+			element.style.display = 'none';
+			document.body.appendChild(element);
+
+			element.click();
+
+			document.body.removeChild(element);
+			
+		}
+	  
+    </script>
+  </body>
+</html>

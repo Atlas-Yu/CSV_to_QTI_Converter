@@ -1,0 +1,130 @@
+﻿question,answer,year,exam,chapter,topic
+"You inject a RETROGRADE tracer into the cerebral cortex of a little horse named Peter. AXOPLASMIC TRANSPORT will carry the tracer to the _________  of neurons that have ________ near the site of injection.
+a)  axon terminals   /   cell bodies
+b)  axon terminals   /   dendrites
+c)  cell bodies   /   axon terminals
+d)  cell bodies   /dendrites",c,2005,1,,
+"Which of the following is correct about glia?
+a)  glia reside only in the frontal lobe
+b)  glia make up 90% of the cells in the brain
+c)  glia fire action potentials
+d)  the brain can function normally without glia",b,2005,1,,
+"A guy got fired from your lab for not keeping his notebook up to date. Your job is to analyze the slides he prepared.  Under the microscope you see scattered, beautiful, fully labeled neurons. You conclude that he used:
+a)  a nissl stain 
+b)  a golgi stain
+c)  a cajal stain
+d)  a professor Stein",b,2005,1,,
+"The Neuron Doctrine was championed by ____________, and the Reticular Theory was supported by _____________.
+a)  Nissl, Cajal
+b)  Golgi, Nissl
+c)  Cajal, Golgi
+d)  Penrose, Darwin",c,2005,1,,
+"Which of the following would you expect to see in the brain of a patient with Alzheimer's Dementia?
+a)  Neurofibrillary Tangles
+b)  Tau Proteins dissociated from microtubules
+c)  Axon degeneration 
+d)  All of the above
+e)  none of the above",d,2005,1,,
+"Dendrites differ from axons because:
+a)  Dendrites are uniform in diameter whereas axons taper
+b)  Axons can have spines or be smooth, whereas dendrites always have spines.
+c)  On average, dendrites are shorter in length whereas axons are longer
+d)  Axons can be postsynaptic surfaces whereas dendrites cannot
+e)  The dendrite is a die hard supporter of the Yankees, whereas the axon is just obsessed with the Red Sox",c,2005,1,,
+"In making neuronal proteins:
+a)  DNA must first be translated into mRNA
+b)  Ribosomes assemble the proteins from amino acids
+c)  Ribosomes attached to the Golgi apparatus fold proteins
+d)  Gene expression is defined as the assembly of amino acids into proteins
+e)  All of the above",b,2005,1,,
+"Dr. Evil has injected you with a toxin whose only effect is to open ion channels.  The presence of the toxin causes neurons to depolarizes. Based on what you know about ion channels, this drug
+a)  opens Chloride channels
+b)  opens Sodium channels
+c)  opens Potassim channels
+d)  is similar to what you get when you eat some Japanese blowfish with fresh ripe scorpion covered in dinoflagellate cream sauce",b,2005,1,,
+"Ion Y is negatively charged and more concentrated inside the cell. The equilibrium potential for this ion is:
+a)  Positive
+b)  Negative
+c)  cannot be determined
+d)  only the little horse named Peter knows",a,2005,1,,
+"Which of the following statements are true about ion channels?
+a)  Ion channels are proteins
+b)  Ion channels are selectively permeable to different ions
+c)  Ion channels can be gated
+d)  A,B and C
+e)  B and C",d,2005,1,,
+"You attend a competition that the neuroscience department is sponsoring.  The first person who creates a cell with a resting membrane potential that is more negative than the regular resting membrane potential wins an A in BN1.  How would you go about doing this?
+a)  Increase the concentration of extracellular sodium (add NaCl outside)
+b)  Increase Chloride permeability at rest
+c)  Increase the concentration of intracellular potassium (add KCl inside)
+d)  Decease the concentration of extracellular potassium. (remove KCl outside)
+e)  More than one of the above",e,2005,1,,
+"All of the following are necessary in order for there to be a net flux (movement) of sodium across the membrane EXCEPT
+a)  a membrane that is permeable to Na
+b)  (Vm – ENa) does not equal zero
+c)  a membrane potential that is negative.
+d)  There are no exceptions, all of the above are necessary in order to have a net movement of sodium.",c,2005,1,,
+"Neurons are incapable of firing action potentials during the refractory period. This is a result of the ____ of _____channels.
+a)  inactivation  /   Na+
+b)  deinactivation /   Na+
+c)  inactivation  /   delayed rectifier
+d)  deinactivation /   delayed rectifier",a,2005,1,,
+"Ion X+ is in equal concentration outside and inside a typical neuron.  The neuron is at a resting potential of –65 mV.  If the membrane were made permeable to ion X+, the cell would
+a)  depolarize.
+b)  Hyperpolarize
+c)  neither depolarize or hyperpolarize",a,2005,1,,
+"The rising phase of the action potential:
+a)  depends on the activation of  'delayed rectifier' channels
+b)  is associated with an increase in sodium permeability
+c)  ends when sodium channels de-inactivate
+d)  takes membrane potential to values closer to the equilibrium potential for potassium",b,2005,1,,
+"All of the following statements about the falling phase of the action potential are true EXCEPT:
+a)  it is partially based on the inactivation of sodium channels
+b)  it is partially based on the opening of potassium channels
+c)  it involves delayed rectifier channels that stay open as long as the membrane is depolarized
+d)  it causes a ten fold change in the intracellular concentration of potassium",d,2005,1,,
+"During what part of the action potential is membrane potential closest to the equilibrium potential of potassium?
+a)  rising phase
+b)  falling phase
+c)  overshoot
+d)  undershoot
+e)  turkey shoot",d,2005,1,,
+"When the neuronal membrane is at rest:
+a)  the driving force on sodium is high and the conductance is low
+b)  the driving force on sodium is high and the conductance is high
+c)  the driving force on sodium is low and the conductance is low
+d)  the driving force on sodium is low and the conductance is high
+e)  sodium shouldn’t be driving if it is high",a,2005,1,,
+"Saltatory conduction
+a)  explains how action potentials jump from one neuron to the next
+b)  requires the presence of gaps in the myelin sheath
+c)  helps enhance spatial summation in dendrites
+d)  shortens the length constant",b,2005,1,,
+"How can neurons signal an increase in stimulus strength?
+a)  By increasing the maximum voltage reached during an action potential
+b)  By decreasing the duration of the action potential 
+c)  By increasing the rate of firing of action potentials
+d)  By transiently increasing myelination around the axon
+e)  By decreasing the action potential threshold",c,2005,1,,
+"You decide to take your chances and have some of that amazing puffer fish you've heard so much about.  Unfortunately, your sushi chef got his license from a questionable online university and he leaves in too much tetrodotoxin (TTX).  The sensory neurons in your lips stop firing action potentials and your lips go numb because: 
+a)  the TTX blocks potassium channels, hyperpolarizing the membrane
+b)  the TTX blocks sodium channels, preventing the membrane from hyperpolarizing
+c)  the TTX blocks sodium channels, preventing the membrane from depolarizing
+d)  the TTX opens sodium channels, depolarizing the membrane
+e)  of the amazing kiss from the sushi chef",c,2005,1,,
+"All of the following are true statements about equilibrium potential (Eq) EXCEPT:
+a)  it is calculated from the Nernst equation
+b)  the Eq for one ion depends on the concentration of all ions inside and outside the membrane
+c)  it is the membrane potential at which diffusion and electrical forces are balanced
+d)  it is a unique value for each ion",b,2005,1,,
+"Gap Junctions:
+a)  transform electrical signals into chemical signals
+b)  are more common in neurons than glial cells
+c)  let electrical signals pass through, but block the flow of ions 
+d)  all of the above
+e)  none of the above",e,2005,1,,
+"If a neuron did not have vesicular transporters, synaptic vesicles could not be loaded and therefore
+a)  the neuron could NOT fire action potentials or release neurotransmitters
+b)  the neuron could fire action potentials, but NOT release neurotransmitters
+c)  the neuron could NOT fire action potentials, but could still release neurotransmitters
+d)  the neuron would still be able to fire action potentials and release neurotransmitters",b,2005,1,,
